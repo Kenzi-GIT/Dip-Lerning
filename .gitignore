@@ -1,0 +1,21 @@
+# Datasets & large files
+*.csv
+!slides_export/*.csv
+*.zip
+*.tar.gz
+datasets/
+uploads/
+archive.zip
+
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.pt
+*.pth
+
+# Environment
+.env
+venv/
+.venv/
