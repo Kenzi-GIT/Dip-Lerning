@@ -1,0 +1,14 @@
+{
+  "champion": "Tabular ResNet",
+  "lr": 0.0003,
+  "weight_decay": 0.1,
+  "optimizer": "adamw",
+  "capacity": {
+    "width": 32,
+    "dropout": 0.2
+  },
+  "threshold_f1_val": 0.53,
+  "seed": 42,
+  "split": "80/10/10 stratified",
+  "n_features_set_B": 242
+}
